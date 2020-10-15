@@ -34,7 +34,7 @@ html, body{
     font-size: .8em !important;
 }
 /*Header*/
-#head-title-left{
+.head-title-left{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -44,7 +44,7 @@ html, body{
     align-items: center;
     letter-spacing: 0.05em;
 }
-#head-title-right{
+.head-title-right{
     opacity: .5;
     font-style: normal;
     font-weight: 900;
@@ -56,13 +56,16 @@ html, body{
 
 
 }
-#head-img{
+.head-img{
     width: 50px;
     height: 50px;
 }
 #menu-bars{
     width: 30px;
     height: 30px;
+}
+#menu-bars:hover{
+    color: #F2C94C;
 }
 /*Menü*/
 #menu{
@@ -80,6 +83,9 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: .8em;
     text-transform: lowercase;
+}
+.menu-title:hover{
+    background-color: #F2C94C !important;
 }
 /*Offer*/
 .offer-bg{
@@ -128,14 +134,13 @@ html, body{
     background-color: rgba(242, 201, 76, .9) 
 }
 .input-style{
-    height: 36px;
+    height: 30px;
     border: 0;
     margin: 0;
     width: 100%;
     padding: 10px;
 }
 .textarea-style{
-    height: 100%;
     border: 0;
     margin: 0;
     width: 100%;
