@@ -26,6 +26,9 @@ html, body{
     font-weight: bold;
     text-transform: uppercase;
     font-size: .8em;
+}.getoffer-btn:hover{
+    background-color: white !important;
+    color: #4F4F4F !important;
 }
 .font-reduction{
     font-size: .7em !important;
@@ -63,9 +66,21 @@ html, body{
 #menu-bars{
     width: 30px;
     height: 30px;
+    transition: .3s;
+    padding: 3px;
 }
 #menu-bars:hover{
-    color: #F2C94C;
+    cursor: pointer;
+    transform: rotate(180deg);
+    background-color: #F2C94C;
+}
+#facebook:hover{
+    cursor: pointer;
+    background-color: #4F4F4F;
+}
+#instagram:hover{
+    cursor: pointer;
+    background-color: #4F4F4F;
 }
 /*Menü*/
 #menu{
@@ -74,6 +89,14 @@ html, body{
     font-weight: bold;
     text-transform: uppercase;
     background: #4F4F4F;
+    height: 35px;
+    overflow: hidden;
+    transition: .3s;
+}
+@media only screen and (max-width: 720px) {
+    #menu{
+        height: 0px;
+    }
 }
 .menu-icons{
     width: 18px;
@@ -85,6 +108,7 @@ html, body{
     text-transform: lowercase;
 }
 .menu-title:hover{
+    cursor: pointer;
     background-color: #F2C94C !important;
 }
 /*Offer*/
@@ -115,7 +139,7 @@ html, body{
 .chose-bg{
     background-image: url("../Images/ChoseBackground.png");
     background-repeat: no-repeat;
-    /*background-size: cover;*/
+    background-size: cover;
 }
 .grey-layer{
     background-color: rgba(79, 79, 79, .7);
@@ -129,6 +153,7 @@ html, body{
 .form-bg{
     background-image: url("../Images/Hero_Image.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .form-layer{
     background-color: rgba(242, 201, 76, .9) 
@@ -145,5 +170,6 @@ html, body{
     margin: 0;
     width: 100%;
     padding: 10px;
+    height: 140px;
 }
 
