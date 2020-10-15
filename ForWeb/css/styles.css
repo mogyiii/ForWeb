@@ -30,6 +30,9 @@ html, body{
 .font-reduction{
     font-size: .7em !important;
 }
+.font-reduction-sm{
+    font-size: .8em !important;
+}
 /*Header*/
 #head-title-left{
     font-family: Arial, Helvetica, sans-serif;
@@ -96,8 +99,8 @@ html, body{
     height: 10px;
 }
 .services-icon{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 .services-font-resize{
     font-size: .7em;
@@ -109,6 +112,33 @@ html, body{
     /*background-size: cover;*/
 }
 .grey-layer{
-    background-color: rgba(79, 79, 79, .5);
+    background-color: rgba(79, 79, 79, .7);
     width: 100%;
 }
+/*Vehicles*/
+.vehicles-line{
+    height: 4px;
+}
+/*Form*/
+.form-bg{
+    background-image: url("../Images/Hero_Image.png");
+    background-repeat: no-repeat;
+}
+.form-layer{
+    background-color: rgba(242, 201, 76, .9) 
+}
+.input-style{
+    height: 36px;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+}
+.textarea-style{
+    height: 100%;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+}
+
